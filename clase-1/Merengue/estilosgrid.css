@@ -75,10 +75,8 @@ header nav li{
 }
 
 .nav-item:hover{
-    background-color: grey;
     border-radius: 15px;
     transition-duration: 1.5s;
-    padding: 10px;
     font-size: larger;
 }
 
@@ -393,3 +391,6 @@ footer .hashtag{
 
 
 }
+
+
+
