@@ -110,6 +110,12 @@ header nav li a{
 }
 
 
+.mainbootstrap{
+    background-image: url(img/fondo.jpg);
+    background-size: 100%;
+
+}
+
 
 .sec1y2{
     grid-area: sec1y2;
