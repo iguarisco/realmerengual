@@ -13,7 +13,7 @@
 
 
     <!-- Icono chiquito arri -->
-    <link rel="shortcut icon" href="/clase-1/Merengue/img/escudo-rmfc.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../Merengue/img/escudo-rmfc.png" type="image/x-icon">
 
 
 
@@ -39,21 +39,21 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
 
-\
+
     
     
    
 </head>
 
-<body style="background-color:#a9a8a8;">
+<body 
    
     <section class="container-fluid">    
 
-        <!-- Header  -->
+        <!-- Header con bootstrap  -->
 
-        <header class="row d-flex justify-content-between align-items-end ">
+        <header class="row d-flex justify-content-between align-items-end sticky-top">
             <section class="col-5 d-flex flex-row align-items-end   ">
-                <img src="/clase-1/Merengue/img/escudo-rmfc.png" alt="">
+                <img src="./img/escudo-rmfc.png" alt="">
                 <section class="">
                     <h2>Real Merengual FC</h2>
                     <p class="lead">11 de Diciembre del 2017</p>
@@ -64,24 +64,24 @@
             <nav class=" col-6 navbar navbar-expand-lg navbar-light ">
                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon boton-nav"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav nav-tabs">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Inicio <span class=""></span></a>
+                      <a class="nav-link" href="./index.html">Inicio <span class=""></span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Historia</a>
+                      <a class="nav-link" href="../Pages/historia.html">Historia</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Partidos</a>
+                      <a class="nav-link" href="../Pages/partidos.html">Partidos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Plantel</a>
+                        <a class="nav-link" href="../Pages/plantel.html">Plantel</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#" >Contacto</a>
+                      <a class="nav-link" href="../Pages/contacto.html" >Contacto</a>
                     </li>
                   </ul>
                 </div>
@@ -90,49 +90,16 @@
             
             
             
-            <!-- <nav class="col-6 ">
-                <ul>
-                    <li><a href="./index.html"></a>Inicio </li>
-                    <li><a href="../Pages/historia.html"></a>Historia</li>
-                    <li><a href="../Pages/partidos.html"></a>Partidos</li>
-                    <li><a href="../Pages/plantel.html"></a>Plantel</li>
-                    <li><a href="../Pages/contacto.html"></a>Contactos</li>
-                </ul>
-            </nav> -->
+
         </header>
         
-        <!-- <header>
 
-            <section class="parte-arriba">
-                <img class="escudo-arriba" src="../Merengue/img/escudo-rmfc.png" alt="Escudo merengue">
-                <section class="titulo-entero">
-                    <h2 class="titulo realmerengual animate__animated animate__bounce">REAL MERENGUAL FC</h2>
-                    <p class="titulo nacimiento animate__animated animate__bounce">11 de Diciembre del 2017</P>
-                    <p class="titulo paginaoficial animate__animated animate__bounce">Pagina Oficial</P>
-                </section>    
-            </section>
-              
-            <nav > 
-                <ul >
-                    <li class="nav-item"><a id="inicio"  href="index.html">Inicio</a></li>
-                    <li class="nav-item"><a  href="../Pages/historia.html">Historia</a></li>
-                    <li class="nav-item"><a  href="../Pages/partidos.html">Partidos</a></li>
-                    <li class="nav-item"><a  href="../Pages/plantel.html">Plantel</a></li>
-                    <li class="nav-item"><a  href="../Pages/contacto.html">Contacto</a></li>
-                </ul>    
-            </nav>    
-        
-        </header> -->
-
+        <!-- Seccion del carrusel hecha con Bootstrap -->
 
         <main class="mainbootstrap d-flex justify-content-around align-items-center row ">
-            <section class="m-5 d-flex justify-content-around ">
-                <div id="carouselExampleIndicators" class="carousel slide col-6" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
+            <section class=" m-5 d-flex justify-content-around ">
+                <div id="section1 carouselExampleIndicators" class="carousel slide col-6 d-flex flex-column justify-content-center" data-ride="carousel">
+
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img src="../Merengue/img/festejo-equipo.jpeg" class="d-block w-100 rounded-lg" alt="...">
@@ -144,79 +111,70 @@
                         <img src="../Merengue/img/festejo2.jpeg" class="d-block w-100 rounded-lg" alt="...">
                       </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon d-flex align-items-center aria-hidden="true"></span>
+                    <a class="carousel-control-prev row" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon " aria-hidden="true"></span>
                       <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <a class="carousel-control-next row" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon " aria-hidden="true"></span>
                       <span class="sr-only">Next</span>
                     </a>
 
 
-                    <section class="bg-light mt-4 p-3 d-flex justify-content-center">
+                    <section class="bg-light mt-4 p-3 d-flex justify-content-center rounded-lg">
                         <p class="d-flex justify-content-center align-content-center text-muted">Lorem ipsuntium magnam, eligendi quasi optio aperiam in dignissimos corporis cupiditate. Cum, tenetur nam? Corporis, non a?</p>
                     </section>
                 </div>
-                <section class="d-flex flex-column justify-content-center align-items-center col-4 bg-danger m-3 h-100">
+                <section class="section2 d-flex flex-column justify-content-center align-items-center col-4 bg-danger m-3 h-100 rounded-lg">
                     <img class=" w-100 h-50 m-4 rounded " src="../Merengue/img/corrida-hacia-copa.jpg" alt="">
-                    <p>Lorem ipsum, dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim repellat quaerat corrupti neque iure illo minima laudantium, ea fuga beatae veritatis similique accusantium autem ex eum repudiandae minus rem deleniti. sit amet consectetur adipisicing elit. Delectus totam aperiam repellendus sunt numquam autem minus! Impedit rem, delectus obcaecati commodi a quas dolores quasi natus voluptate vitae officiis quibusdam.</p>
+                    <p>Lorem ipsum, dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim repfuga beatae veritatis similique accusantium autem ex eum repudiandae minus rem deleniti. sit amet consectetur adipisicing elit. Delectus totam aperiam repellendus sunt numquam autem minus! Impedit rem, delectus obcaecati commodi a quas dolores quasi natus voluptate vitae officiis quibusdam.</p>
                         
                 </section>
+
+
             </section>
 
-
+            <!-- Panel de navegacion -->
             
 
+            <section class="section3 w-100">
 
-            <!-- <section class="bg-info d-flex w-100 ">
-                <img class="rounded-circle" src="../Merengue/img/studiofama-logo.png" alt="">
-                <img class="rounded-circle" src="../Merengue/img/studiofama-logo.png" alt="">
-                <img class="rounded-circle" src="../Merengue/img/studiofama-logo.png" alt="">
-                <img class="rounded-circle" src="../Merengue/img/studiofama-logo.png" alt="">
-                <img class="rounded-circle" src="../Merengue/img/studiofama-logo.png" alt="">
+                <a class="">◄</a>
+                <img src="img/studiofama-logo.png" alt="">
+                <img src="img/studiofama-logo.png" alt="">
+                <img src="img/studiofama-logo.png" alt="">
+                <img src="img/studiofama-logo.png" alt="">
+                <img src="img/studiofama-logo.png" alt="">
+                <img src="img/studiofama-logo.png" alt="">
+                <a>►</a>          
+
             </section>
-             -->
+
+            <!-- Seccion de videos  -->
+
+            <section class="section4 border-dark rounded col-9 d-flex justify-content-center bg-danger">
+
+                
             
-             
-             
+                <video class="rounded-pill border-dark m-3" src="../Merengue/video/video-gol.mp4" class="videoGrande"></video>
 
-        </main>
-
-
-        <!-- Main -->
-        <main class="mainIndex">
-
-            
-
-            <section class="sec1y2">                
-                <!-- Carrusel de imagenes / con texto debajo de cada imagen -->
-                <section class="section1">   
-
-                    <!-- <button>Previous</button>          -->
-                    <img class="carrusel-imgs"  src="../Merengue/img/festejo-equipo.jpeg" alt="Foto copa">
-                    <!-- <button>Next</button> -->
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, suscipit?</p>
-                        
-                            
-                </section>
-                        
-                <!-- Solapa derecha con dato puntual, que lleva imagen y explicacion con varios puntos por debajo -->
-                <section class="section2">
-                            <article>
-                                <img class="seccionderecha-img"  src="../Merengue/img/festejo2.jpeg" alt="">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora aut ipsam minus. Ducimus fugiat magnam illo voluptatibus veniam debitis, accusantium sapiente repellendus iusto, dolorum reprehenderit vero. Unde rem iure hic! 
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus amet numquam delectus incidunt maiores quisquam, ex accusantium labore voluptas magni magnam deleniti non repellat pariatur facilis reprehenderit alit consectetur adipisicing elit. Necessitatibus amet numquam delectus incidunt maiores quisquam, ex accusantium labore voluptas magni magnam deleniti non repellat pariatur facilis reprehenderit alias voluptatibus aliquid.
-                                </p>
-                            </article>
+                <section class="videosSection row-12 ">
                     
-                </section>  
+                    <video class="col-4 rounded border-dark" src="../Merengue/video/video-gol.mp4"></video>
+                    <video class="col-4 rounded border-dark" src="../Merengue/video/video-gol.mp4"></video>
+                    <video class="col-4 rounded border-dark" src="../Merengue/video/video-gol.mp4"></video>
+                    
+                </section>
+
+
+    
+                
+
 
             </section>
 
-            <!-- En esta seccion va a estar el panel de navegacion movil -->
-            <!--No pude conseguir fotos aun, pero asi quedaria de forma -->
-            <section class="section3">
+
+            <section class="section3 row-12 w-100">
 
                 <a>◄</a>
                 <img src="img/studiofama-logo.png" alt="">
@@ -229,45 +187,12 @@
 
             </section>
             
-
-            <!-- Fondo de la segunda pantalla / hay alguna etiqueta para fondo? css? -->
-            <section class="section4">
-
-                
-            
-                <video src="../Merengue/video/video-gol.mp4" class="videoGrande"></video>
-
-                <section class="videosSection">
-                    
-                    <video src="../Merengue/video/video-gol.mp4"></video>
-                    <video src="../Merengue/video/video-gol.mp4"></video>
-                    <video src="../Merengue/video/video-gol.mp4"></video>
-                    
-                </section>
-
-                
-                
-            </section>
-            
-            <!-- En esta seccion va a estar el panel de navegacion movil -->
-            <!-- Lo mismo aca con el tema de las fotos  -->
-            <section class="section5">
-                <a>◄</a>
-                <img src="img/studiofama-logo.png" alt="">
-                <img src="img/studiofama-logo.png" alt="">
-                <img src="img/studiofama-logo.png" alt="">
-                <img src="img/studiofama-logo.png" alt="">
-                <img src="img/studiofama-logo.png" alt="">
-                <img src="img/studiofama-logo.png" alt="">
-                <a>►</a> 
-            </section>
-            
             <section class="section6">
 
                 <section class="spotify">
                     
 
-                    <iframe style="border-radius:5px" src="https://open.spotify.com/embed/playlist/1CpY2QbqANQDBBVWZOhXPG?utm_source=generator"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    <iframe class="reproductor" height="70vh"  src="https://open.spotify.com/embed/playlist/1CpY2QbqANQDBBVWZOhXPG?utm_source=generator"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
                     
                 </section>
@@ -282,9 +207,16 @@
 
                 </section>
 
-            </section>
             
+
+
+             
+             
+
         </main>
+
+
+
 
         <!-- Footer de sponsors  -->
         <footer>
@@ -296,17 +228,14 @@
             </SECtion>
         
             <section class="sponsors">
-                <h2 class="titulo-sponsors">SPONSORS</h2>
-                <section class="imagenes-sponsors">
-                        <img class="logogrupocine" src="../Merengue/img/logogrupocinenegro.png" alt="">
-                        
-                        <img src="../Merengue/img/swat-logo.png" alt="">
-
-                        <img  src="../Merengue/img/redbull-logo.png" alt="">
-
-                        <img src="../Merengue/img/studiofama-logo.png" alt="">
-                        <img src="../Merengue/img/studiofama-logo.png" alt="">
-                        <img src="../Merengue/img/studiofama-logo.png" alt="">
+                <h2 class="titulo-sponsors m-3 p-2">SPONSORS</h2>
+                <section class="imagenes-sponsors row-12">
+                        <img class="col-2" src="../Merengue/img/logogrupocinenegro.png" alt="">
+                        <img class="col-2" src="../Merengue/img/swat-logo.png" alt="">
+                        <img class="col-2" src="../Merengue/img/redbull-logo.png" alt="">
+                        <img class="col-2" src="../Merengue/img/studiofama-logo.png" alt="">
+                        <img class="col-2" src="../Merengue/img/studiofama-logo.png" alt="">
+                        <img class="col-2" src="../Merengue/img/studiofama-logo.png" alt="">
                 </section>
             </section>    
     
@@ -321,11 +250,11 @@
                 <section class="piedepagina-imagenes">    
                     <!-- Las imagenes de abajo son nefastas, la idea es conseguir iconos y dejarlos en ese ordenes  -->
                     <!-- Logos de comunicacion -->
-                    <img width="300" height="200" src="../Merengue/img/logo-spoty-mini.png" alt="">
-                    <img width="300" height="200" src="../Merengue/img/logo-whatsapp-mini.jpg" alt="">
-                    <img width="300" height="200" src="../Merengue/img/logo-facebook-mini.png" alt="">
-                    <img width="300" height="200" src="../Merengue/img/logo-instagram-mini.png" alt="">
-                    <img width="300" height="200" src="../Merengue/img/logo-twitter-mini.png" alt="">
+                    <img width="300" height="200" src="../Merengue/img/logo-spoty-mini.png" alt="Spotify">
+                    <img width="300" height="200" src="../Merengue/img/logo-instagram-mini.png" alt="Whatsapp">
+                    <img width="300" height="200" src="../Merengue/img/logo-facebook-mini.png" alt="Facebook">
+                    <img width="300" height="200" src="../Merengue/img/logo-instagram-mini.png" alt="Instagram">
+                    <img width="300" height="200" src="../Merengue/img/logo-twitter-mini.png" alt="Twitter">
                 </section>
 
             </section>

@@ -19,6 +19,8 @@ header {
     display: flex;
     background-color: white;
     padding: 20px;
+    position: sticky;
+    width: 100vw;
 
 }
 
@@ -81,6 +83,20 @@ header nav li{
 }
 
 
+@media only screen and (max-width: 992px) {
+    .navbar-collapse {
+        top: 50px;
+        padding: 20px;
+        border-radius: 20px 0px 20px 20px;
+        z-index: 10;
+    }
+
+    .sec1y2{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: aqua;
+    }
+}
 
 
 
@@ -123,6 +139,7 @@ header nav li a{
     justify-content: center;
     align-items: center;
     background-image: url(img/fondo.jpg);
+    position: fixed;
     background-size: 100%;
 
 }
@@ -177,6 +194,10 @@ section .section2 p{
     font-weight: bold;
 }
 
+.section3{
+    width: 100%;
+}
+
 
 
 .section3, .section5{
@@ -186,6 +207,7 @@ section .section2 p{
     align-items: center;
     padding: 10px;
     background-color: white;
+    
 }
 
 .section3 img , .section5 img{
@@ -210,10 +232,9 @@ section .section2 p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(img/fondo-intento2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 100%;
 }
 
 .section4 .videosSection, .section4 .videoGrande{
@@ -244,11 +265,23 @@ section .section2 p{
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    background-image: url(img/fondo.jpg);
+
 }
 
 .section6 .spotify, .section6 .twitter{
     margin: 30px;
+    height:70vh;
+    width:30vw;
 }
+
+.reproductor{
+    height:70vh ;
+    border-radius: 15px;
+    width:30vw;
+
+}
+
 
 
 
@@ -312,6 +345,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 footer .sponsorsT{
     width: 100%;
@@ -325,6 +359,9 @@ footer .sponsors{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(img/fondo.jpg);
+    background-size: 100%;
+    width: 100%;
 }
 
 footer .sponsors .imagenes-sponsors{
@@ -371,6 +408,13 @@ footer .hashtag{
     font-family: 'Oswald', sans-serif;
     font-size: larger;
     font-weight: bolder;
+    padding: 10px;
+    margin: 5px;
+}
+
+.titulo-sponsors{
+    font-size: xx-large;
+    font-weight: bolder;
 }
 
 
@@ -379,20 +423,9 @@ footer .hashtag{
 @media only screen  and (max-width: 500px) {
 
     
-.sec1y2{
-    flex-direction: column;
-    
-}
-    
-.sec1y2 .section1{
-    width: 100%;
-    
-}
-
-.sec1y2 .section2{
-    width: 100%;
-    
-}
+    .sponsors img{
+        width: 10px;
+    }
 
 
 
