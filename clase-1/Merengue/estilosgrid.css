@@ -347,9 +347,10 @@ footer{
     align-items: center;
     width: 100%;
 }
+
 footer .sponsorsT{
     width: 100%;
-    background-color: white;
+    background-color: rgb(254, 254, 254);
     display: flex;
     justify-content: center;
 }
@@ -365,7 +366,6 @@ footer .sponsors{
 }
 
 footer .sponsors .imagenes-sponsors{
-    display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
@@ -397,6 +397,10 @@ footer .pie-de-pagina{
 }
 
 
+footer .fondosponsorspartidos{
+    background-color: white;
+}
+
 footer .pie-de-pagina img{
     width: 30px;
     height: 30px;
@@ -417,6 +421,11 @@ footer .hashtag{
     font-weight: bolder;
 }
 
+footer section .bi{
+    font-size: large;
+    margin: 10px;
+    
+}
 
 
 
@@ -430,6 +439,7 @@ footer .hashtag{
 
 
 }
+
 
 
 
