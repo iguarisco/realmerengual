@@ -285,10 +285,6 @@ footer .titulo-sponsors{
 }
 
 
-footer .colorfooterpartidos{
-    color: white;
-}
-
 footer .escudo-sponsors
 {
     margin: 15px;
@@ -589,22 +585,7 @@ main .tablas-partidos td{
     width: 80%;
 }
 
-main .rojo , main .tablas-partidos .rojo{
-    background-color: darkred;
-    color: rgb(156, 152, 152);
-    font-weight: bolder;
-    font-style: italic;
-}
 
-main .rojo p{
-    background-color: rgb(247, 143, 143);
-    color: black;
-}
-
-body .fondocontainer{
-    background-image: url(img/fondo-intento2.jpg);
-    background-size: auto;
-}
 
 /* .mainpartidos .tituloresultados{
     margin: 5px;
@@ -629,6 +610,7 @@ body .fondocontainer{
 
 .mainpartidos .secciontituloresultados h3,p{
     margin: 5px;
+    background-color: #bdbbbb;
 
 }
 

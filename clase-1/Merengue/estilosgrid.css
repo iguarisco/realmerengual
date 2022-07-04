@@ -24,7 +24,7 @@ header .parte-arriba, nav {
 }
 
 /* This only changes this particular animation duration */
-.animate__animated.animate__bounce {
+.animate__animated .animate__bounce {
     --animate-duration: 2s;
   }
   
@@ -68,6 +68,8 @@ header nav li{
     
 }
 
+
+
 .nav-item:hover{
     border-radius: 15px;
     transition-duration: 1.5s;
@@ -100,7 +102,11 @@ header nav li a{
     color: black;
 }
 
-
+header nav li a:hover{
+    transform: scale(1.100);
+    transition: 1.5s;
+    background-color: rgb(168, 168, 168);
+}
 
 
 
@@ -124,68 +130,10 @@ header nav li a{
 
 }
 
-.sec1y2 .section1{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-.sec1y2 .section2{
-    display: flex;
-    width: 40%;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.sec1y2 .section1 img, .sec1y2 .section1 p{
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    padding: 20px;
-    margin: 10px 20px 10px 20px;
-    background-color: white;
-    border-radius: 5px;
-    font-family: 'Oswald', sans-serif;
-    font-size: large;
-    font-weight: bold;
-}
-
-
-.sec1y2 .section2 article{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    justify-content: space-around;
-    
-}
-
-section .section2 p{
-    font-family: 'Oswald', sans-serif;
-    font-size: large;
-    font-weight: bold;
-}
-
-.section3{
-    width: 100%;
-}
 
 
 
 .section3, .section5{
-    grid-area: section3;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
     background-color: white;
     
 }
@@ -206,23 +154,7 @@ section .section2 p{
     transition: 1.5s;
 }
 
-.section4{
-    grid-area: section4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
 
-.section4 .videosSection, .section4 .videoGrande{
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .section4 .videoGrande{
     display: flex;
@@ -268,48 +200,6 @@ section .section2 p{
 
 
 
-/* 
-.mainHistoria .year{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: 20px;
-    background-color: white;
-    border-radius: 15px 0;
-}
-
-.mainHistoria .titulohistoria{
-    margin: 10px;
-    font-size: larger;
-    font-weight: bolder;
-}
-
-
-.mainHistoria .year section{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-
-
-}
-
-.mainHistoria .fondo-texto-descripcion{
-    width: 100%;
-    margin: 15px;
-}
-
-.mainHistoria section img{
-    width: 40%;
-    height: 30vh;
-    margin: 10px 5%;
-}
-
-
-.mainHistoria .year h4{
-    margin: 20px;
-    
-} */
 
 
 
@@ -354,8 +244,10 @@ footer .sponsors img{
 }
 
 footer .sponsors img:hover{
-    transform: scale(1.3);
+    transform: scale(1.3) rotate(360deg);
     transition: 1.5s;
+    translate: translate(20px, 20px);
+
 }
 
 
@@ -401,6 +293,25 @@ footer section .bi{
 }
 
 
+/* Animaciones generales  */
+
+
+
+
+
+
+
+/* Animaciones Index */
+
+
+
+
+
+
+
+
+
+
 
 /* --------------------------------- */
     /* PARTIDOS */
@@ -431,7 +342,7 @@ footer section .bi{
 
 
 /* HISTORIA*/
-.container-fluid .fondoimagen{
+.historia .fondoimagenhistoria{
     background-image: url(./img/juan-copa-blackwhite.jpeg);
     background-size: 100%;
 }
@@ -446,14 +357,32 @@ footer section .bi{
     justify-content: flex-end;
 }
 
+.animated-year:hover{
+    
+    transition: 1.5s;
+    transform: scale(1.100);
+}
+
+.animated-year:hover{
+    background-color: grey;
+
+}
+
+.animated-year:hover .yearcolor .animated-white{
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+/* main section .yearcolor:hover{
+    transform: scale(1.100);
+    transition: 1.5s;
+} */
+
+
+
 
 
 /* ---------------------------------------- */
-
-
-/* PARTIDOS */
-
-
 
 /* media query para que se reduzcan los sponsors */
 
@@ -488,4 +417,3 @@ footer section .bi{
         padding-left: 0.5rem;
     }
 }
-
