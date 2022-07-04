@@ -349,10 +349,8 @@ footer{
 }
 
 footer .sponsorsT{
-    width: 100%;
     background-color: rgb(254, 254, 254);
-    display: flex;
-    justify-content: center;
+
 }
 
 footer .sponsors{
@@ -428,6 +426,33 @@ footer section .bi{
 }
 
 
+
+/* --------------------------------- */
+    /* PARTIDOS */
+
+
+    .fondorojo{
+        background-color: rgb(237, 149, 149);
+    }
+
+    .partidosmain{
+        background-image:url(./img/fondo.jpg);
+        background-size: 100%;
+    }
+
+    /* .rojo{
+        background-color: rgba(222, 118, 118, 0.677);
+    } */
+
+
+
+
+
+
+
+
+
+/* ---------------------------------- */
 
 @media only screen  and (max-width: 500px) {
 
