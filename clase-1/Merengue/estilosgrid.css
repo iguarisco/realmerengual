@@ -431,7 +431,7 @@ footer section .bi{
 
 
 /* HISTORIA*/
-.historia .fondoimagenhistoria{
+.container-fluid .fondoimagen{
     background-image: url(./img/juan-copa-blackwhite.jpeg);
     background-size: 100%;
 }
@@ -449,6 +449,11 @@ footer section .bi{
 
 
 /* ---------------------------------------- */
+
+
+/* PARTIDOS */
+
+
 
 /* media query para que se reduzcan los sponsors */
 
