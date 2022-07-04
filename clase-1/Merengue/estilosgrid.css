@@ -4,15 +4,7 @@
     
 }
 
-.estructura-grid{
-    display: grid;
-    grid-template-areas: 
-    'header'
-    'main'
-    'footer';
-    grid-template-rows: auto auto auto;
-    grid-template-columns: auto;    
-}
+
 
 header { 
     grid-area: header;
@@ -111,19 +103,7 @@ header nav li a{
 
 
 
-.mainIndex {
-    grid-area: main;
-    display: grid;
-    grid-template-areas: 
-    'sec1y2 sec1y2 sec1y2'
-    'section3 section3 section3'
-    'section4 section4 section4'
-    'section5 section5 section5'
-    'section6 section6 section6';
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto auto;
 
-}
 
 
 .mainbootstrap{
@@ -286,14 +266,9 @@ section .section2 p{
 
 
 
-.mainHistoria{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 
+/* 
 .mainHistoria .year{
     display: flex;
     justify-content: space-between;
@@ -334,7 +309,7 @@ section .section2 p{
 .mainHistoria .year h4{
     margin: 20px;
     
-}
+} */
 
 
 
@@ -454,11 +429,45 @@ footer section .bi{
 
 /* ---------------------------------- */
 
+
+/* HISTORIA*/
+.historia .fondoimagenhistoria{
+    background-image: url(./img/juan-copa-blackwhite.jpeg);
+    background-size: 100%;
+}
+
+.yearcolor{
+    background-color: white;
+}
+
+
+
+.navbar{
+    justify-content: flex-end;
+}
+
+
+
+/* ---------------------------------------- */
+
+/* media query para que se reduzcan los sponsors */
+
+@media only screen  and (max-width: 992px) {
+
+    
+    .sponsors section img{
+        height: 50% ;
+    }
+
+
+
+}
+
 @media only screen  and (max-width: 500px) {
 
     
-    .sponsors img{
-        width: 10px;
+    .sponsors section img{
+        height: 50% ;
     }
 
 
@@ -466,5 +475,12 @@ footer section .bi{
 }
 
 
+/* media query para que el navbar no se encime antes de comprimirse en hamburguesa */
 
+@media (min-width: 1200px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
 
