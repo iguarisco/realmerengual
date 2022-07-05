@@ -332,13 +332,18 @@ footer section .bi{
 
 
 
-
-
+    /* PLANTEL */
+    .fondoimagen{
+        background-image:url(./img/fondo.jpg);
+        background-size: 100%;
+    }
 
 
 
 
 /* ---------------------------------- */
+
+
 
 
 /* HISTORIA*/
