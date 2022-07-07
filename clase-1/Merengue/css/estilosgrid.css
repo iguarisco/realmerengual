@@ -1,0 +1,424 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+
+
+header { 
+    grid-area: header;
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    position: sticky;
+    width: 100vw;
+
+}
+
+header .parte-arriba, nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+}
+
+/* This only changes this particular animation duration */
+.animate__animated .animate__bounce {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+
+
+header .parte-arriba section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+    text-decoration: none;
+    flex-wrap: wrap;
+    
+}
+
+
+
+header nav li{
+    display: inline;
+    text-align: center;
+    margin: 5px;
+    font-family: 'Spline Sans Mono', monospace;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;    
+    
+    
+    
+}
+
+
+
+.nav-item:hover{
+    border-radius: 15px;
+    transition-duration: 1.5s;
+    font-size: larger;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .navbar-collapse {
+        top: 50px;
+        padding: 20px;
+        border-radius: 20px 0px 20px 20px;
+        z-index: 10;
+    }
+
+    .sec1y2{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: aqua;
+    }
+}
+
+
+
+
+header nav li a{
+    display: inline;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+
+header nav li a:hover{
+    transform: scale(1.100);
+    transition: 1.5s;
+    background-color: rgb(168, 168, 168);
+}
+
+
+
+
+
+.mainbootstrap{
+    background-image: url(../img/fondo.jpg);
+    background-size: 100%;
+
+}
+
+
+.sec1y2{
+    grid-area: sec1y2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondo.jpg);
+    position: fixed;
+    background-size: 100%;
+
+}
+
+
+
+
+.section3, .section5{
+    background-color: white;
+    
+}
+
+.section3 img , .section5 img{
+    width: 10%;
+    border-radius: 50%;
+    
+}
+
+.section5 img:hover{
+    transform: scale(1.100);
+    transition: 1.5s;
+}
+
+.section3 img:hover{
+    transform: scale(1.100);
+    transition: 1.5s;
+}
+
+
+
+.section4 .videoGrande{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10px;
+}
+
+.section4 .videosSection video{
+    width: 30%;
+    margin: 10PX;
+}
+
+.section5{
+    grid-area: section5;
+}
+
+.section6{
+    grid-area: section6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../img/fondo.jpg);
+
+}
+
+.section6 .spotify, .section6 .twitter{
+    margin: 30px;
+    height:70vh;
+    width:30vw;
+}
+
+.reproductor{
+    height:70vh ;
+    border-radius: 15px;
+    width:30vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    grid-area: footer ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+footer .sponsorsT{
+    background-color: rgb(254, 254, 254);
+
+}
+
+footer .sponsors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondo.jpg);
+    background-size: 100%;
+    width: 100%;
+}
+
+footer .sponsors .imagenes-sponsors{
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+footer .sponsors img{
+    width: 200px;
+    height: 200px;
+    margin: 5%;
+    border-radius: 50%;
+}
+
+footer .sponsors img:hover{
+    transform: scale(1.3) rotate(360deg);
+    transition: 1.5s;
+    translate: translate(20px, 20px);
+
+}
+
+
+
+footer .pie-de-pagina{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    width: 100%;
+
+}
+
+
+footer .fondosponsorspartidos{
+    background-color: white;
+}
+
+footer .pie-de-pagina img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+footer .hashtag{
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 5px;
+}
+
+.titulo-sponsors{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+footer section .bi{
+    font-size: large;
+    margin: 10px;
+    
+}
+
+
+/* Animaciones generales  */
+
+
+
+
+
+
+
+/* Animaciones Index */
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------- */
+    /* PARTIDOS */
+
+
+    .fondorojo{
+        background-color: rgb(237, 149, 149);
+    }
+
+    .partidosmain{
+        background-image:url(../img/fondo.jpg);
+        background-size: 100%;
+    }
+
+    /* .rojo{
+        background-color: rgba(222, 118, 118, 0.677);
+    } */
+
+
+
+    /* PLANTEL */
+    .fondoimagen{
+        background-image:url(../img/fondo.jpg);
+        background-size: 100%;
+    }
+
+
+
+
+/* ---------------------------------- */
+
+
+
+
+/* HISTORIA*/
+.historia .fondoimagenhistoria{
+    background-image: url(../img/juan-copa-blackwhite.jpeg);
+    background-size: 100%;
+}
+
+.yearcolor{
+    background-color: white;
+}
+
+
+
+.navbar{
+    justify-content: flex-end;
+}
+
+.animated-year:hover{
+    
+    transition: 1.5s;
+    transform: scale(1.100);
+}
+
+.animated-year:hover{
+    background-color: grey;
+
+}
+
+.animated-year:hover .yearcolor .animated-white{
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+/* main section .yearcolor:hover{
+    transform: scale(1.100);
+    transition: 1.5s;
+} */
+
+
+
+
+
+/* ---------------------------------------- */
+
+/* media query para que se reduzcan los sponsors */
+
+@media only screen  and (max-width: 992px) {
+
+    
+    .sponsors section img{
+        height: 50% ;
+    }
+
+
+
+}
+
+@media only screen  and (max-width: 500px) {
+
+    
+    .sponsors section img{
+        height: 50% ;
+    }
+
+
+
+}
+
+
+/* media query para que el navbar no se encime antes de comprimirse en hamburguesa */
+
+@media (min-width: 1200px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
