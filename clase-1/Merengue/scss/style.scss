@@ -1,44 +1,7 @@
-header{
-    nav{
-        ul{
-            li{
-                a{
-                    background-color: rgb(255, 202, 212);
-                }
-            }
-        }
-    }
-}
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'main';
+ 
 
-
-header{
-    .titulares{
-        h2{
-        font-weight: bolder;
-            p{
-                font-style: italic;
-
-            }
-        }
-    }
-}
-
-main{
-    .section3:hover{
-        background-color:rgb(255, 202, 212); ;
-        transition: 1.5s
-    }
-}
-
-main{
-    .section4{
-        background-color: rgb(255, 202, 212);
-        border-radius: 20px;
-        border: solid 3px black;
-            video{
-                border: solid 3px black;
-
-        }
-    }
-}
 
