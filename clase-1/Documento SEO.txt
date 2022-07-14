@@ -1,0 +1,6 @@
+SEO, DOCUMENTO
+
+1- Se agrego  <meta name="description" content="Aqui hay informacion sobre el Real Merengual FC, un cuadro de amigos">
+    <meta name="keywords" content="futbol, amigos, club, liga siete">
+
+2- Se verificaron todos los titulos

@@ -1,17 +1,63 @@
  
 main{
+
+    section{
+        .reproductor{
+            height:150vh;
+            border-radius: 15px;
+            width:30vw;
+        }
+
+        div{
+            section{
+                background-color: map-get($colorscale , background-color3 );
+                p{
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .section2{
+        background-color: map-get($colorscale , background-color3 );
+    }
+
+    
+    .section3{
+        background-color: map-get($colorscale , background-color3 );
+        border-top:solid 2px black;
+        border-bottom:solid 2px black;
+        
+        img{
+            border-radius: 50%;
+            width: 13%;
+            &:hover{
+                transform: scale(1.100);
+                transition: 1.5s;
+            }
+        }
+    }
+    
+    
     .section3:hover{
         background-color:rgb(255, 202, 212); ;
         transition: 1.5s
     }
 
     .section4{
-        background-color: rgb(255, 202, 212);
+        background-color: #c91a1b;
         border-radius: 20px;
-        border: solid 3px black;
             video{
                 border: solid 3px black;
 
         }
     }
+
+
+
+    
+
+    
+
+
 }

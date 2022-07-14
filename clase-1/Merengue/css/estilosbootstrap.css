@@ -1,5 +1,35 @@
+header {
+  border-bottom: 3px solid grey;
+  background-color: white;
+}
+header .margendearriba {
+  margin-top: 20px;
+}
+header section h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: xx-large;
+}
+header .navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+header nav ul li {
+  font-family: "Spline Sans Mono", monospace;
+  font-weight: bolder;
+}
+header nav ul li .nav-link {
+  color: white;
+}
+header nav ul li .colordiferenciado {
+  background-color: #931513;
+}
 header nav ul li a {
-  background-color: rgb(255, 202, 212);
+  background-color: #c91a1b;
+  font-size: large;
+}
+header nav ul li a:hover {
+  transform: scale(1.1);
+  transition: 1.5s;
+  background-color: #fefae4;
 }
 header .titulares h2 {
   font-weight: bolder;
@@ -8,14 +38,68 @@ header .titulares h2 p {
   font-style: italic;
 }
 
+footer .sponsorsT {
+  background-color: white;
+  border-top: solid 3px black;
+  border-bottom: solid 3px black;
+}
+footer .sponsors img {
+  height: 200px;
+  margin: 5%;
+  border-radius: 50%;
+}
+footer .sponsors img:hover {
+  transform: scale(1.3) rotate(360deg);
+  transition: 1.5s;
+  translate: translate(20px, 20px);
+}
+footer section h2 {
+  display: flex;
+  justify-content: center;
+}
+footer .pie-de-pagina {
+  background-color: white;
+  width: 100%;
+  padding-right: 30px;
+}
+footer .pie-de-pagina .piedepagina-imagenes svg {
+  margin: 10px;
+}
+
+main section .reproductor {
+  height: 150vh;
+  border-radius: 15px;
+  width: 30vw;
+}
+main section div section {
+  background-color: lightgrey;
+}
+main section div section p {
+  color: black;
+}
+main .section2 {
+  background-color: lightgrey;
+}
+main .section3 {
+  background-color: lightgrey;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+main .section3 img {
+  border-radius: 50%;
+  width: 13%;
+}
+main .section3 img:hover {
+  transform: scale(1.1);
+  transition: 1.5s;
+}
 main .section3:hover {
   background-color: rgb(255, 202, 212);
   transition: 1.5s;
 }
 main .section4 {
-  background-color: rgb(255, 202, 212);
+  background-color: #c91a1b;
   border-radius: 20px;
-  border: solid 3px black;
 }
 main .section4 video {
   border: solid 3px black;

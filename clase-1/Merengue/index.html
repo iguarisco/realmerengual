@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aqui hay informacion sobre el Real Merengual FC, un cuadro de amigos">
+    <meta name="keywords" content="futbol, amigos, club, liga siete">
     <title>Real Merengual Futbol Club</title>
+
+
+    
     <!-- <link rel="stylesheet" href="estilos.css"> -->
-    <link rel="stylesheet" href="./css/estilosgrid.css">
+    <!-- <link rel="stylesheet" href="./css/estilosgrid.css"> -->
     <link rel="stylesheet" href="./css/estilosbootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -32,7 +37,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Josefin+Sans&display=swap" 
     rel="stylesheet">
-    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Spline+Sans+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Rubik:wght@500&family=Spline+Sans+Mono:wght@300&display=swap" rel="stylesheet">
+
+
+
+
     <!-- Animacion de libreria CSS -->
     <link
     rel="stylesheet"
@@ -45,14 +60,15 @@
    
 </head>
 
-<body 
+<body style="background-color:#fefae4;">
+ 
    
   <section class="container-fluid">    
 
     <!-- Header con bootstrap  -->
 
-    <header class="row d-flex justify-content-between align-items-end ">
-      <section class="col-5 p-1 d-flex flex-row align-items-end  rounded  ">
+    <header class="p-2 row d-flex justify-content-between align-items-end ">
+      <section class="margendearriba col-5 p-1 d-flex flex-row align-items-end  rounded  ">
         <img src="./img/escudo-rmfc.png" alt="">
         <section class="titulares">
           <h2>Real Merengual FC</h2>
@@ -72,13 +88,13 @@
               <a class="nav-link " href="./index.html">Inicio <span class=""></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../Pages/historia.html">Historia</a>
+              <a class="nav-link colordiferenciado" href="../Pages/historia.html">Historia</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../Pages/partidos.html">Partidos</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../Pages/plantel.html">Plantel</a>
+            <li class="nav-item ">
+              <a class="nav-link colordiferenciado" href="../Pages/plantel.html">Plantel</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../Pages/contacto.html" >Contacto</a>
@@ -97,7 +113,7 @@
     <!-- Seccion del carrusel hecha con Bootstrap -->
 
     <main class="mainbootstrap d-flex justify-content-around align-items-center row ">
-      <section class=" m-5 d-flex justify-content-around ">
+      <section class="imagenfondo m-5 d-flex justify-content-around ">
                 <div id="section1 carouselExampleIndicators" class="carousel slide col-6 d-flex flex-column justify-content-center" data-ride="carousel">
 
                     <div class="carousel-inner">
@@ -121,11 +137,11 @@
                     </a>
 
 
-                    <section class="bg-light mt-4 p-3 d-flex justify-content-center rounded-lg">
-                        <p class="d-flex justify-content-center align-content-center text-muted">Lorem ipsuntium magnam, eligendi quasi optio aperiam in dignissimos corporis cupiditate. Cum, tenetur nam? Corporis, non a?</p>
+                    <section class=" mt-4 p-3 d-flex justify-content-center rounded-lg">
+                        <p class="d-flex justify-content-center align-content-center ">Lorem ipsuntium magnam, eligendi quasi optio aperiam in dignissimos corporis cupiditate. Cum, tenetur nam? Corporis, non a?</p>
                     </section>
                 </div>
-                <section class="section2 d-flex flex-column justify-content-center align-items-center col-4 bg-danger m-3 h-100 rounded-lg">
+                <section class="section2 d-flex flex-column justify-content-center align-items-center col-4  m-3 h-100 rounded-lg">
                     <img class=" w-100 h-50 m-4 rounded " src="../Merengue/img/corrida-hacia-copa.jpg" alt="">
                     <p>Lorem ipsum, dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim repfuga beatae veritatis similique accusantium autem ex eum repudiandae minus rem deleniti. sit amet consectetur adipisicing elit. Delectus totam aperiam repellendus sunt numquam autem minus! Impedit rem, delectus obcaecati commodi a quas dolores quasi natus voluptate vitae officiis quibusdam.</p>
                         
@@ -151,12 +167,12 @@
 
       <!-- Seccion de videos  -->
 
-      <section class="section4 border-dark rounded col-9 d-flex flex-column align-items-center justify-content-center ">
+      <section class="section4 rounded col-9 d-flex flex-column align-items-center justify-content-center ">
 
      
         <video class="rounded-pill border-dark m-3" src="../Merengue/video/video-gol.mp4" class="videoGrande"></video>
 
-        <section class="videosSection row-12 ">
+        <section class="d-flex flex-nowrap videosSection row-12 ">
                     
           <video class=" col-4 rounded border-dark" src="../Merengue/video/video-gol.mp4"></video>
           <video class=" col-4 rounded border-dark" src="../Merengue/video/video-gol.mp4"></video>
@@ -187,7 +203,7 @@
 
 
         <section class="m-3 twitter">        
-          <a height="70vh" width="30vw" class="twitter-timeline" href="https://twitter.com/OficialCAP?ref_src=twsrc%5Etfw">Tweets by OficialCAP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a height="150vh" width="30vw" class="twitter-timeline" href="https://twitter.com/OficialCAP?ref_src=twsrc%5Etfw">Tweets by OficialCAP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </section>
       </section>
             
@@ -220,7 +236,7 @@
             
 
 
-      <section class="d-flex justify-content-between align-items-center w-120 pie-de-pagina">
+      <section class=" d-flex justify-content-between align-items-center w-120 pie-de-pagina">
 
                 
         <p class="m-2 p-2 hashtag">#MERENGUEHASTALAMUERTE</p>

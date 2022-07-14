@@ -1,9 +1,60 @@
 header{
+    border-bottom: 3px solid grey;
+    background-color: white;
+
+    .margendearriba{
+        margin-top: 20px;
+        
+    }
+
+    section{
+        h2{
+            // font-family: 'Oswald', sans-serif;
+            // font-family: 'Spline Sans Mono', monospace;
+            // font-family: 'Oswald', sans-serif;
+            font-family: 'Rubik', sans-serif;
+            font-size: xx-large;
+            // font-family: 'Spline Sans Mono', monospace
+        }
+
+        p{
+
+        }
+    }
+  
+    .navbar-light{
+        .navbar-nav{
+            .nav-link{
+                color: white;
+            }
+        }
+    }  
     nav{
         ul{
             li{
+                font-family: 'Spline Sans Mono', monospace;
+                font-weight: bolder;
+
+                .nav-link{
+                    color: white;
+
+                }
+
+                .colordiferenciado{
+                    background-color: map-get($colorscale , background-color1 );
+                }
+
                 a{
-                    background-color: rgb(255, 202, 212);
+                    background-color: map-get($colorscale , background-color2 );
+                    font-size: large;
+                   
+
+                    &:hover{
+                        transform: scale(1.100);
+                        transition: 1.5s;
+                        background-color: #fefae4;
+
+                    }
                 }
             }
         }
@@ -19,3 +70,5 @@ header{
         }
     }
 }
+
+
