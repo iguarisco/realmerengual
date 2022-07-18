@@ -21,9 +21,15 @@ header{
 
         }
     }
-  
+    
+    .navbar{
+        display: flex;
+        justify-content: flex-end;
+    }
+
     .navbar-light{
         .navbar-nav{
+
             .nav-link{
                 color: white;
             }

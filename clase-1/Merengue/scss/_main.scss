@@ -1,6 +1,9 @@
  
 main{
 
+
+
+
     section{
         .reproductor{
             height:150vh;
@@ -54,10 +57,68 @@ main{
     }
 
 
+}
+
+.historia{
+    .fondoimagenhistoria{
+        background-image: url(../img/juan-copa-blackwhite.jpeg);
+        background-size: 100%;
+            .animated-year{
+
+                &:hover{
+                    transition: 1.5s;
+                    transform: scale(1.100);
+                    background-color: grey;
+                }
+            }
+    }
+
+}
+
+.yearcolor{
+    background-color: white;
+
+}
+
+.historia{
+    main{
+        section{
+            section{
+                .imghistoria{
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen  and (max-width: 992px) {
 
     
+    .imgescudodesaparece{
+        display: none;        
+    } 
 
-    
+
 
 
 }
+
+
+@media only screen  and (max-width: 992px) {
+
+    
+    main .section2{
+        height: 50%;
+    }
+
+    main section section p{
+        font-size: smaller;
+    }
+
+
+
+
+}
+

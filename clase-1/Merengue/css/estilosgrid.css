@@ -1,45 +1,45 @@
-*{
+/* *{
     margin: 0%;
     padding: 0%;
     
-}
+} */
 
 
 
 
-/* This only changes this particular animation duration */
+/* This only changes this particular animation duration
 .animate__animated .animate__bounce {
     --animate-duration: 2s;
   }
   
 /* This changes all the animations globally */
-  :root {
+  /* :root {
     --animate-duration: 800ms;
     --animate-delay: 0.9s;
-  }
+  } */ */
 
 
 
 
-
+/* 
 header nav li{
     font-family: 'Spline Sans Mono', monospace;
     color: black;
     font-weight: bolder;    
     
     
-}
+} */
 
 
 
-.nav-item:hover{
+/* .nav-item:hover{
     border-radius: 15px;
     transition-duration: 1.5s;
     font-size: larger;
-}
+} */
 
 
-@media only screen and (max-width: 992px) {
+/* @media only screen and (max-width: 992px) {
     .navbar-collapse {
         top: 50px;
         padding: 20px;
@@ -52,7 +52,7 @@ header nav li{
         flex-direction: row-reverse;
         background-color: aqua;
     }
-}
+} */
 
 
 
@@ -136,10 +136,7 @@ header nav li a:hover{
 
 }
 
-/* Fondo contacto */
-.fondoimagencontacto{
-    background-color: rgba(151, 147, 147, 0.722);
-}
+
 
 
 footer .sponsorsT{
@@ -255,14 +252,14 @@ footer section .bi{
 
 
 /* HISTORIA*/
-.historia .fondoimagenhistoria{
+/* .historia .fondoimagenhistoria{
     background-image: url(../img/juan-copa-blackwhite.jpeg);
     background-size: 100%;
-}
+} */
 
-.yearcolor{
+/* .yearcolor{
     background-color: white;
-}
+} */
 
 
 
@@ -270,26 +267,6 @@ header .navbar{
     justify-content: flex-end;
 }
 
-.animated-year:hover{
-    
-    transition: 1.5s;
-    transform: scale(1.100);
-}
-
-.animated-year:hover{
-    background-color: grey;
-
-}
-
-.animated-year:hover .yearcolor .animated-white{
-    color: aliceblue;
-    font-weight: bolder;
-}
-
-/* main section .yearcolor:hover{
-    transform: scale(1.100);
-    transition: 1.5s;
-} */
 
 
 
@@ -299,7 +276,7 @@ header .navbar{
 
 /* media query para que se reduzcan los sponsors */
 
-@media only screen  and (max-width: 992px) {
+/* @media only screen  and (max-width: 992px) {
 
     
     .sponsors section img{
@@ -319,7 +296,7 @@ header .navbar{
 
 
 
-}
+} */
 
 
 /* media query para que el navbar no se encime antes de comprimirse en hamburguesa */
