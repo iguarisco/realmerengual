@@ -1,0 +1,35 @@
+// Mixin incluye un parametro (variable) vacio al cual le voy a dar un valor en un futuro cercano, osea , cuando lo utilice
+
+// Constructores - armamos una estructura que vamos a reutilizar en varios elementos pero sin necesariamente saber el valor de cada propiedad
+
+@mixin servicios($rounded) {
+    border-radius: $rounded
+
+}
+
+@mixin ancho_servicios($ancho) {
+    width: $ancho
+
+}
+
+
+@mixin sponsorsstyle($bgcolor, $bordertop, $borderbottom) {
+    background-color: $bgcolor;
+    border-top: $bordertop;
+    border-bottom: $borderbottom;
+}
+
+.redondo{
+    @include servicios(50%)
+}
+
+.redondo{
+    @include ancho_servicios(13%)
+}
+
+
+.sponsorsT{
+    @include sponsorsstyle(white, solid 3px black ,solid 3px black )
+}
+
+

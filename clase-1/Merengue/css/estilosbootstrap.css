@@ -42,11 +42,11 @@ header .titulares h2 p {
   font-style: italic;
 }
 
-footer .sponsorsT {
+/* footer .sponsorsT {
   background-color: white;
   border-top: solid 3px black;
   border-bottom: solid 3px black;
-}
+} */
 footer .sponsors img {
   height: 200px;
   margin: 5%;
@@ -149,6 +149,19 @@ main .section4 video {
   main section section p {
     font-size: smaller;
   }
+}
+.redondo {
+  border-radius: 50%;
+}
+
+.redondo {
+  width: 13%;
+}
+
+.sponsorsT {
+  background-color: white;
+  border-top: solid 3px black;
+  border-bottom: solid 3px black;
 }
 
 /*# sourceMappingURL=estilosbootstrap.css.map */
