@@ -1,0 +1,18 @@
+// bolistas de propiedades que podemos reutilizar en muchos lugares
+// % + nombre { las propiedades } 
+
+%botones{
+    border-radius: 15px;
+    border: 2px solid black;
+
+    
+   
+}
+
+.littlevideo {
+    @extend %botones;
+}
+
+.bigvideo{
+    @extend %botones;
+}

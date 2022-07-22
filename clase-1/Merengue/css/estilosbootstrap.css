@@ -42,11 +42,11 @@ header .titulares h2 p {
   font-style: italic;
 }
 
-/* footer .sponsorsT {
+footer .sponsorsT {
   background-color: white;
   border-top: solid 3px black;
   border-bottom: solid 3px black;
-} */
+}
 footer .sponsors img {
   height: 200px;
   margin: 5%;
@@ -115,10 +115,6 @@ main .section4 {
   background-color: #c91a1b;
   border-radius: 20px;
 }
-main .section4 video {
-  border: solid 3px black;
-}
-
 .historia .fondoimagenhistoria {
   background-image: url(../img/juan-copa-blackwhite.jpeg);
   background-size: 100%;
@@ -162,6 +158,11 @@ main .section4 video {
   background-color: white;
   border-top: solid 3px black;
   border-bottom: solid 3px black;
+}
+
+.bigvideo, .littlevideo {
+  border-radius: 15px;
+  border: 2px solid black;
 }
 
 /*# sourceMappingURL=estilosbootstrap.css.map */
