@@ -81,9 +81,9 @@ footer .pie-de-pagina .piedepagina-imagenes svg {
   }
 }
 main section .reproductor {
-  height: 150vh;
+  height: 70vh;
   border-radius: 15px;
-  width: 30vw;
+  width: 90%;
 }
 main section div section {
   background-color: lightgrey;
@@ -115,8 +115,9 @@ main .section4 {
   background-color: #c91a1b;
   border-radius: 20px;
 }
+
 .historia .fondoimagenhistoria {
-  background-image: url(../img/juan-copa-blackwhite.jpeg);
+  background-image: url(../../Merengue/img/juan-copa-blackwhite.jpeg);
   background-size: 100%;
 }
 .historia .fondoimagenhistoria .animated-year:hover {
@@ -127,10 +128,15 @@ main .section4 {
 
 .yearcolor {
   background-color: white;
+  width: 400px;
 }
 
 .historia main section section .imghistoria {
   width: 300px;
+}
+
+body section .anchotabla {
+  width: 80%;
 }
 
 @media only screen and (max-width: 992px) {
@@ -144,6 +150,11 @@ main .section4 {
   }
   main section section p {
     font-size: smaller;
+  }
+}
+@media only screen and (max-width: 600px) {
+  main .littlevideo {
+    display: none;
   }
 }
 .redondo {
